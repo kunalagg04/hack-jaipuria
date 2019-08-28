@@ -1,0 +1,43 @@
+.footer{
+    width:100%;
+    
+    background: black;
+    color: white;;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    padding-bottom: 3%;
+}
+
+.con{
+    padding-top: 3%;
+    text-align: center;
+}
+
+.con .email{
+
+    color: aliceblue;
+    padding-top:1%;
+    font-size: 1.2em;
+
+}
+
+.con img{
+    width: 25%;
+
+}
+
+.footer .icons{
+    padding-top:1.2%;
+
+
+}
+
+.footer .icons i{
+    margin: 0% 0.7%;
+    color: white;
+}
+
+.footer .details{
+    padding-top: 2%;
+    color: white;
+}

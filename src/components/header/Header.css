@@ -1,0 +1,281 @@
+#header{
+    position: relative;
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+    background-image: url(../../assets/larabg.jpg);
+    /* background-color: black; */
+}
+
+
+
+.particles{
+    z-index: -1;
+}
+
+#logo{
+    
+  
+}
+
+#logo .fab{
+    color: #8A97A3;
+    margin-top: 10px;
+}
+
+.fab:hover{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fc0000+0,ffff00+84,ffff00+100 */
+    color: white;
+
+}
+
+
+#content{
+    margin: 0 auto;
+    margin-top: -42%;
+    position: relative;
+    z-index: 10;
+    width: 55%;
+    text-align: center;
+    color: aliceblue;
+    
+    
+
+}
+
+.land-nav{
+    padding-top:2%;
+    text-align: right;
+    margin-right: 3%;
+    
+}
+
+.land-nav .icons{
+    
+}
+
+.land-nav i{
+    color: white;
+    margin-left: 30px;
+    transition: all 1s;
+}
+
+.land-nav i:hover{
+    color:red;
+}
+
+#content .dsclogo{
+    width: 10%;
+}
+
+#head0{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5em;
+    font-weight: 350;
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+}
+
+#head1{
+    
+
+    font-size: 1.1em; 
+   
+    font-weight: 100;
+    margin-top:2%;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+#heading{
+     
+    font-weight: normal;
+    font-style: normal;
+    font-size: 4.9em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+    transition: all 0.7s;
+
+}
+
+#heading:hover{
+    font-size: 4.9em;
+}
+
+#content .details {
+    width: 75%;
+    margin: 0 auto;
+    margin-top:2%;
+    font-family: 'Righteous', cursive;
+    text-align: left;
+    font-size: 1.2em;
+
+}
+
+#content .details i{
+    margin-right: 3%;
+}
+/* 
+#content .col-7{
+    float: right;
+} */
+
+#butcourse{
+    border-radius: 20px;
+    background: inherit;
+    border-color: white;
+    outline: none;
+    transition: all 0.9s;
+    width: 11em;
+    height: 2.8em;
+}
+
+#butcourse:focus{
+    outline: none;
+}
+
+#butcourse:hover{
+    background-color: black;
+    border : none;
+    width: 12em;
+    height: 3em;
+    border-radius: 30px; 
+    
+}
+
+
+.rocket{
+    width:23%;
+}
+
+.rocket img{
+    width:100%;
+   
+    margin-left: -20%;
+    margin-top: -10%;
+
+}
+
+.rocket .animated{
+    transform: rotate(45deg) !important;
+}
+
+#content .rbut{
+    margin-top: 4%;
+}
+
+.rbut button{
+    width:8em;
+    height: 3em;
+    font-size: 1.1em;
+    border-radius: 0%;
+    padding: 0em;
+    font-family: 'Raleway', sans-serif;
+    border-bottom-right-radius:12px !important;
+    border-top-left-radius: 12px;
+    
+}
+
+.rbut button:hover{
+    background: rgba(0,0,0,0.6);
+    border-color: white;
+}
+#card{
+
+    margin-left: 100px;
+   
+  }
+
+
+  @media screen and (max-width: 600px){
+    #content{
+        width:100%;
+    }
+
+    #content col-2{
+        display: none;
+    }
+
+   
+  }
+
+  .landing-footer{
+    background-color: #383838;
+  }
+
+
+/*prevent white space*/
+
+.landing-mob{
+  /* background: url('../../assets/landing-mob.png'); */
+  height:100vh;
+  background-size: cover;
+}
+
+.landing-mob .l-mob-view {
+    color: white;
+
+}
+
+.landing-mob .l-mob-view .main-view{
+   margin-top:20%;
+   padding:2em;
+}
+
+.landing-mob .l-mob-view #head00{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3.3em;
+    font-weight: 350;
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+}
+
+.landing-mob .l-mob-view #head11{
+    
+
+    font-size: 1.8em; 
+   
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+#headingg{
+     
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3.7em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+    transition: all 0.7s;
+
+}
+
+#heading:hover{
+    font-size: 4.4em;
+}
+
+.l-mob-view #butcourse{
+    border-radius: 20px;
+    background: inherit;
+    border-color: white;
+    outline: none;
+    transition: all 0.9s;
+    width: 11em;
+    height: 2.8em;
+    margin-top:1.3em;
+}
+
+#butcourse:focus{
+    outline: none;
+}
+
+.landing-mob-footer{
+    background-color: #333333;
+}

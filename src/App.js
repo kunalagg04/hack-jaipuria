@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from './components/header/Header';
+import About from './components/about/About';
+import Timeline from './components/timeline/Timeline';
+import Prize from './components/prize/Prize';
+import Themes from './components/Themes/Themes';
+import Venue from './components/Venue/Venue';
+import Judge from './components/Judges/Judge';
+import Sponsor from './components/Sponsors/Sponsors';
+import Faq from './components/faq/Faq';
+import Footer from './components/Footer/Footer';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <About/>
+      <Timeline/>
+      <Prize/>
+      <Themes/>
+      <Venue/>
+      <Judge/>
+      <Sponsor/>
+      <Faq/>
+      <Footer/>
     </div>
   );
 }

@@ -1,0 +1,47 @@
+.prize{
+    background: url(../../assets/prize.jpg);
+    height: 100vh;
+    width:100%;
+}
+
+.prize .content{
+    padding:4% 9%;
+    padding-bottom: 0%;
+    padding-right: 3%;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+
+
+}
+
+.prize .main{
+    height: 100%;;
+}
+
+.prize .content .head{
+    font-size: 3em;
+    font-weight: 500;
+    padding-bottom: 6%;
+}
+
+.prize .graphic img{
+    width: 90%;
+    margin-top:20%;
+}
+
+.row{
+    width: 100%;
+}
+
+.prize .dis{
+    height: 30%;
+}
+
+.prize .mid{
+    height: 30%;
+  
+}
+
+.prize .mid .row{
+    height: 100%;
+}

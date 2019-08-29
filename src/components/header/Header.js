@@ -179,6 +179,13 @@ class Header extends React.Component{
                
                 
                 </div>
+
+
+                <div className="rocket">
+                             <img 
+                            //  class="animated infinite pulse delay-2s"
+                              src= {require('../../assets/rocketf.svg')}/>
+                         </div>
              
         
                 

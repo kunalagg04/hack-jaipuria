@@ -327,6 +327,22 @@
     
 }
 
+.mob-head .rocket{
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 0;
+    
+    width:100%;
+    text-align: center;
+    left:40px;
+
+}
+
+.mob-head .rocket img{
+    width: 70%;
+    transform: rotate(-45deg);
+}
+
 
 
 

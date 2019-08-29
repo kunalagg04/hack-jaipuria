@@ -1,0 +1,120 @@
+/*MOBILE*/
+
+.navbar-mobile{
+    
+    width:100%;
+    height: 5%;
+}
+
+.navbar-mobile .top-bar{
+    width:inherit;
+    padding-top:0.9em;
+    padding-right: 0.8em;
+    padding-left: 0.8em;
+   padding-bottom: 0.9em;
+}
+
+#nav-mob-logo{
+    width:50%;
+}
+
+.navbar-mobile .top-bar #ham{
+    float: right;
+  
+}
+
+.navbar-mobile .top-bar #ham2{
+    float: right;
+    display: none;
+  
+}
+
+.navbar-mobile .hidden-box{
+    background: rgb(0,0,0);
+    height:85vh;
+    border-top:1px solid rgba(255,255,255,0.3);
+    color:white;
+    position: relative;
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    animation-name: hiddennavbardis;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    display: none;
+}
+
+@keyframes hiddennavbardis{
+    0%{height:0vh}
+   
+    100%{height:92vh}
+}
+
+.hidden-box .nav-content{
+    padding-top:5%;
+    padding-left:10%;
+    font-size:1.55em;
+    width:85%;
+    text-align: center;
+}
+
+.hidden-box .nav-content div{
+    margin-top:0.3em;
+    
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.hidden-box .sm-dis{
+    vertical-align: bottom;
+    bottom: 2.5%;
+    width:60%;
+    margin-left: 20%;
+    display: inline-block;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    animation-name: icondis;
+    animation-duration: 0.34s;
+    animation-timing-function: linear;
+    animation-delay:1s; 
+}
+
+@keyframes icondis{
+    0%{opacity: 0;}
+   
+    50%{opacity: 0.5;}
+    
+    100%{opacity: 1}
+}
+
+.hidden-box .sm-dis .fab{
+    color:rgba(255,255,255,0.8);
+}
+
+#ham-icon{
+    animation-name: hamburgeranim-1;
+    animation-duration: 0.2s;
+
+}
+
+@keyframes hamburgeranim-1{
+    0%{transform: rotate(-90deg);}
+    
+    100%{transform: rotate(0deg);}
+}
+
+#ham-icon-2{
+    animation-name: hamburgeranim;
+    animation-duration: 0.2s;
+    transform: rotate(-90deg);
+}
+
+@keyframes hamburgeranim{
+    0%{transform: rotate(0deg);}
+    
+    100%{transform: rotate(-90deg);}
+}
+
+.hidden-box a{
+    color: white;
+}

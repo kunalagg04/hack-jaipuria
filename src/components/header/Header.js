@@ -3,6 +3,7 @@ import React from 'react';
 import Particles from 'react-particles-js';
 import Navbar from '../../components/navbar/Navbar';
 import { Link } from 'react-router-dom';
+import NavMob from '../nav-mob/NavMob';
 
 /* For Particle.JS */
 const particleOpt = { 
@@ -134,7 +135,9 @@ class Header extends React.Component{
 
         else{
             return(
+
                 <div className="ml">
+                    <NavMob/>
                      <Particles className='particles' params={particleOpt}></Particles>
               
                 <div className="mob-head">

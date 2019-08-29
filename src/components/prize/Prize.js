@@ -8,7 +8,7 @@ const Prize = () => {
   return (
     <div className="prize">
       <div className="row">
-          <div className="col-5 content" >
+          <div className="col-lg-5 col-sm-12 content" >
             <div className="main">
                 <div className="head">
                     Prizes
@@ -23,7 +23,7 @@ const Prize = () => {
                    <div className="col-3">
 
                    </div>
-                   <div className="col-9">
+                   <div className="col-lg-9 col-sm-12">
 
                    <Pcard
                       pr="2 st Prize"

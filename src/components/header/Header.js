@@ -143,7 +143,7 @@ class Header extends React.Component{
                 <div className="mob-head">
                 <div className="l-top">
                 <div className="head">
-                  <img src={require('../../assets/dsclogo.svg')} style={{width : "15%"}} /> DSCBVP
+                  <img src={require('../../assets/dsclogo.svg')} style={{width : "12%"}} /> DSCBVP
                 </div>
                 <div className="pr">
                     presents

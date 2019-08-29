@@ -195,11 +195,12 @@
 
 .mob-head{
     width: 100%;
-    height: 105vh;
+    height: 110vh;
     position: relative;
     background: rgba(0,0,0,0.7);
     border-bottom-right-radius: 1.1em;
     border-bottom-left-radius: 1.1em;
+    margin-top:-150%;
     /* margin-bottom: 1%; */
     
    

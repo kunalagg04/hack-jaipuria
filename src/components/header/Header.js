@@ -126,10 +126,31 @@ class Header extends React.Component{
 
         else{
             return(
-                <div>
-          
-            
-            </div>
+                <div className="mob-head">
+                <div className="l-top">
+                <div className="head">
+                  DSCBVP
+                </div>
+                <div className="m-intro">
+                          We are a bunch of enthusiastic technocrats who took the responsibility of delivering this required knowledge to you."
+                </div>
+        
+               
+                
+                </div>
+                <div className="l-bottom">
+                  
+                    {/* <img src={require('../../assets/m-ln.svg')}></img> */}
+                   
+                  
+                </div>
+        
+                
+               
+                {/* <div className="ill">
+                  <img src={require('../../assets/header.svg')}></img>
+                </div> */}
+              </div>
             );
         }
     }

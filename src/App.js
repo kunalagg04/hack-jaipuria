@@ -14,7 +14,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div style={{overflow: "hidden"}}>
       <Header/>
       <About/>
       <Timeline/>

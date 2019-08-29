@@ -30,3 +30,28 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, #152873 100%);
     width: 40%;
     margin: 0 auto;
 }
+
+.sponsors .bo{
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .sponsors{
+        padding-bottom: 10%;
+    }
+
+    .sponsors .content .google{
+        width: 30%;
+        
+    }
+
+    .sponsors .content img{
+        margin-bottom: 9%;
+    }
+
+    .sponsors .bo{
+        margin-top:9%;
+    }
+
+}

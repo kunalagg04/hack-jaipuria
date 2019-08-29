@@ -66,7 +66,7 @@ const Sponsors = () => {
                 </div>
 
 
-                <div class="row" style={{marginTop: "5%" }}>
+                <div class="row bo" >
                     <div class="col-lg-4">
      
                     <img className="google" src={require('../../assets/mozilla.png')}/>

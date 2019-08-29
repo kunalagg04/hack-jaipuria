@@ -127,7 +127,7 @@ class Header extends React.Component{
         else{
             return(
                 <div>
-                <Particles className='particles' params={particleOpt}></Particles>
+              
                 <div className="mob-head">
                 <div className="l-top">
                 <div className="head">

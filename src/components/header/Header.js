@@ -140,21 +140,46 @@ class Header extends React.Component{
                 <div className="mob-head">
                 <div className="l-top">
                 <div className="head">
-                  DSCBVP
+                  <img src={require('../../assets/dsclogo.svg')} style={{width : "15%"}} /> DSCBVP
                 </div>
-                <div className="m-intro">
-                          We are a bunch of enthusiastic technocrats who took the responsibility of delivering this required knowledge to you."
+                <div className="pr">
+                    presents
                 </div>
+
+                <div className="main">
+                    HACK@JAIPURIA
+                </div>
+
+
+               
+
+         
+<div>
+
+<div className="date">
+
+         
+
+<i class="fas fa-calendar-week"></i>
+23 - 24 October' 2019
+
+
+<i class="fas fa-map-marker-alt lo"></i>
+                             SAJS
+</div>
+
+</div>
         
+
+             <div className="rbut">
+                                 <button type="button" class="btn btn-danger">Apply Now</button>
+                                 </div>
+        
+         
                
                 
                 </div>
-                <div className="l-bottom">
-                  
-                    {/* <img src={require('../../assets/m-ln.svg')}></img> */}
-                   
-                  
-                </div>
+             
         
                 
                

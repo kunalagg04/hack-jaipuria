@@ -8,7 +8,7 @@ class NavMob extends React.Component{
         document.querySelector(".hidden-box").style.display="Block";
         document.querySelector("#ham").style.display="none";
         document.querySelector("#ham2").style.display="block";
-        document.querySelector(".hrefp-bar").style.background="rgb(0,0,0)"
+        document.querySelector(".top-bar").style.background="rgb(0,0,0)"
         
     }
 
@@ -16,7 +16,7 @@ class NavMob extends React.Component{
         document.querySelector(".hidden-box").style.display="none";
         document.querySelector("#ham2").style.display="none";
         document.querySelector("#ham").style.display="block";
-        document.querySelector(".hrefp-bar").style.background="rgba(0,0,0,0.1)"
+        document.querySelector(".top-bar").style.background="rgba(0,0,0,0.1)"
     }
 
 
@@ -24,9 +24,9 @@ class NavMob extends React.Component{
         return(
 
             <div className="navbar-mobile">
-            <div className="hrefp-bar">
+            <div className="top-bar">
                 <span>
-               <a href="/"> <img  id = "nav-mob-logo" src={require('../../assets/hack_jaipuria.png')}></img></a>
+               <a to="/"> <img  id = "nav-mob-logo" src={require('../../assets/hack_jaipuria.png')}></img></a>
                 </span>
                 <span id="ham" onClick={this.navShow}>
                 <img id="ham-icon" src={require('../../assets/hamburger.png')}></img>
@@ -39,19 +39,19 @@ class NavMob extends React.Component{
             <div className="hidden-box">
                 <div className="nav-content">
 
-                <div><a href="/login">
+                <div><a to="/login">
                     Login
                 </a></div>
-                <div><a href="/course">
+                <div><a to="/course">
                     Courses
                     </a></div>
-                    <div><a href="/blog">
+                    <div><a to="/blog">
                     Blog
                     </a></div>
-                <div><a href="/contact">
+                <div><a to="/contact">
                     Contact
                     </a></div>
-                <div><a href="/signup">
+                <div><a to="/signup">
                     Sign Up
                     </a></div>
               

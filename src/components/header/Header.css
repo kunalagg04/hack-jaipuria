@@ -294,7 +294,8 @@
 }
 
 .ml{
-    background: #0f1932;
+    background: rgb(15,25,50);
+background: linear-gradient(180deg, rgba(15,25,50,1) 0%, rgba(1,4,12,1) 100%);
 }
 
 .ml canvas{

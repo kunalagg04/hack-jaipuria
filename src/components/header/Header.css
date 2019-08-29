@@ -330,11 +330,11 @@
 .mob-head .rocket{
     vertical-align: bottom;
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
     
     width:100%;
     text-align: center;
-    left:40px;
+    left:45px;
 
 }
 

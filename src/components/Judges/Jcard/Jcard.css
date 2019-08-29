@@ -38,6 +38,8 @@
     box-sizing: border-box;
     text-align: center;
     transition: 0.54s;
+
+    background: linear-gradient(0deg, #2c3e50, transparent);
 }
 
 .Jcard:hover .content{

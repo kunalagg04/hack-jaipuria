@@ -11,6 +11,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, #152873 100%);
     font-size: 3.0em;
     font-weight: 600;
     text-align: center;
+    margin-top: -45%;
 }
 
 .sponsors .content{

@@ -13,7 +13,7 @@ const Jcard = (props) => {
             
             <div className="pic">
                 {/* <img src={require(`${props.img}`)}/> */}
-                <img src={require('../../../assets/kk.jpg')} />
+                <img src={require('../../../assets/kkx.jpg')} />
             </div>
 
             <div className="content">

@@ -41,3 +41,23 @@
     padding-top: 2%;
     color: white;
 }
+
+.fa-heart{
+    color: white;
+    transition: 0.5s;
+}
+
+.fa-coffee{
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+.fa-coffee:hover{
+    color:brown;
+}
+
+.fa-heart:hover{
+    color:red;
+}

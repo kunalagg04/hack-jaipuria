@@ -128,7 +128,7 @@ class Header extends React.Component{
             return(
                 <div>
             <div className="landing-mob">
-                <Navbar></Navbar>
+               
 
                 <div className="l-mob-view">
                     <div className="main-view">
@@ -142,7 +142,7 @@ class Header extends React.Component{
                                  <div id="headingg">
                                      HACK@JAIPURIA
                                  </div>
-                                <Link to="/course"> <button id="butcourse" type="button" class="btn btn-primary">Browse our Courses</button></Link>
+                                
 
 
                     </div>

@@ -195,7 +195,7 @@
 
 .mob-head{
     width: 100%;
-    height: 105vh;
+    height: 100vh;
     color:white;
     position: relative;
     background: rgba(0,0,0,0);
@@ -214,7 +214,7 @@
     position: absolute;
     z-index:1;
     width: 100%;
-    padding-top:40%;
+    padding-top:35%;
     border-bottom-right-radius: 1.1em;
     border-bottom-left-radius: 1.1em;
     /* background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); */

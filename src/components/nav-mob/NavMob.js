@@ -1,10 +1,12 @@
 import React from 'react';
 import './NavMob.css';
+import $ from 'jquery';
 
 class NavMob extends React.Component{
 
 
     navShow(){
+        
         document.querySelector(".hidden-box").style.display="Block";
         document.querySelector("#ham").style.display="none";
         document.querySelector("#ham2").style.display="block";

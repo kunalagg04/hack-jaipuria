@@ -45,7 +45,7 @@ class Header extends React.Component{
    
     render(){
 
-        if(document.body.offsetWidth > 600){
+        // if(document.body.offsetWidth > 600){
         return(
          <div>
              <div id="header">
@@ -122,37 +122,37 @@ class Header extends React.Component{
           
         
         );
-        }
+        // }
 
-        else{
-            return(
-                <div>
-            <div className="landing-mob">
+        // else{
+        //     return(
+        //         <div>
+        //     <div className="landing-mob">
                
 
-                <div className="l-mob-view">
-                    <div className="main-view">
+        //         <div className="l-mob-view">
+        //             <div className="main-view">
 
-                    <div id="head00">
-                                      Code
-                                 </div>
-                                 <div id="head11">
-                                      your way to the TOP  with
-                                 </div>
-                                 <div id="headingg">
-                                     HACK@JAIPURIA
-                                 </div>
+        //             <div id="head00">
+        //                               Code
+        //                          </div>
+        //                          <div id="head11">
+        //                               your way to the TOP  with
+        //                          </div>
+        //                          <div id="headingg">
+        //                              HACK@JAIPURIA
+        //                          </div>
                                 
 
 
-                    </div>
-                </div>
+        //             </div>
+        //         </div>
                 
-            </div>
+        //     </div>
             
-            </div>
-            );
-        }
+        //     </div>
+        //     );
+        // }
     }
 }
 

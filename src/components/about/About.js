@@ -7,10 +7,10 @@ const About = () => {
 
         <div className="about">
          <div className="row">
-             <div class="col-6 a-img">
+             <div class="col-lg-6 col-sm-12 a-img">
                 <img src={require('../../assets/about.svg')}/>
              </div>
-             <div className="col-6 a-text">
+             <div className="col-lg-6 col-sm-12 a-text">
                  <div className="writeup">
                      <div className="head">
                        About

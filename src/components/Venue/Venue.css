@@ -25,7 +25,7 @@
     height: 100%;
 }
 
-.venue .row .col-6{
+.venue .row .col-lg-6{
     height: 100%;
 }
 
@@ -54,4 +54,55 @@
     margin-top: 3%;
     width: 50%;
     margin-left: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .venue{
+        height: auto;
+    }
+
+    .venue #fmap{
+       
+        width: 90%;
+        text-align: center;
+        
+        /* margin-left: 10%; */
+        float: none;
+        padding-bottom: 10%;
+      
+    }
+
+    /* .venue iframe{
+        height: 100%;
+    } */
+
+    .venue .head{
+        padding-bottom: 9%;
+    }
+
+    .venue .col-lg-6{
+        padding: 0%;
+    }
+
+    .venue .row{
+        margin-left: 0px;
+    }
+
+    .venue .content{
+        height: 90%;
+    }
+    
+    
+.venue .add{
+    font-size: 1.2em;
+    margin-top: 3%;
+    width: 100%;
+  
+}
+
+
+
+
+
 }

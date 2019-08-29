@@ -1,5 +1,5 @@
 .sponsors{
-    height: 90vh;
+   
     width:100%;
     font-family: 'Raleway', sans-serif;
     background: rgb(16,19,24);
@@ -22,7 +22,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, #152873 100%);
     width:100%;
 }
 
-.sponsors .col-4{
+.sponsors .col-lg-4{
     text-align: center;
 }
 

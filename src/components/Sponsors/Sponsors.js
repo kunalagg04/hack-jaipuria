@@ -48,18 +48,18 @@ const Sponsors = () => {
 
             <div className="content">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-lg-4">
      
                     <img className="google" src={require('../../assets/google.png')}/>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-lg-4">
 
                     <img src={require('../../assets/microsoft.png')}/>
                         
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-lg-4">
                     <img className="google" src={require('../../assets/mozilla.png')}/>
                         
                     </div>
@@ -67,18 +67,18 @@ const Sponsors = () => {
 
 
                 <div class="row" style={{marginTop: "5%" }}>
-                    <div class="col-4">
+                    <div class="col-lg-4">
      
                     <img className="google" src={require('../../assets/mozilla.png')}/>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-lg-4">
 
                     <img src={require('../../assets/microsoft.png')}/>
                         
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-lg-4">
                     <img className="google" src={require('../../assets/google.png')}/>
                         
                     </div>

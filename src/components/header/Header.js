@@ -30,9 +30,16 @@ const particleOpt = {
 
     "interactivity": {
         "events": {
-            "onhover": {
-                "enable": true,
-                "mode": "repulse"
+
+            onresize: {
+                enable: true,
+                density_auto: true,
+                density_area : 400 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
+              },
+
+            onhover: {
+                enable: true,
+                mode: "repulse"
             }
         }
     }
@@ -126,7 +133,8 @@ class Header extends React.Component{
 
         else{
             return(
-                <div>
+                <div className="ml">
+                     <Particles className='particles' params={particleOpt}></Particles>
               
                 <div className="mob-head">
                 <div className="l-top">

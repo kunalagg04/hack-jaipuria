@@ -42,20 +42,30 @@ class NavMob extends React.Component{
                 <div className="nav-content">
 
                 <div><a to="/login">
-                    Login
+                    About
                 </a></div>
                 <div><a to="/course">
-                    Courses
+                    Schedule
                     </a></div>
                     <div><a to="/blog">
-                    Blog
+                     Prizes
                     </a></div>
                 <div><a to="/contact">
-                    Contact
+                    Themes
                     </a></div>
                 <div><a to="/signup">
-                    Sign Up
+                    Venue
                     </a></div>
+                    <div><a to="/signup">
+                    Judges
+                    </a></div>
+                    <div><a to="/signup">
+                    Sponsors
+                    </a></div>
+                    <div><a to="/signup">
+                    FAQ
+                    </a></div>
+            
               
 
                 </div>

@@ -21,9 +21,17 @@ const particleOpt = {
 
     "interactivity": {
         "events": {
-            "onhover": {
-                "enable": true,
-                "mode": "repulse"
+
+            onresize: {
+                enable: true,
+                // density_auto: true,
+                // density_area : 400 
+                // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
+              },
+
+            onhover: {
+                enable: true,
+                mode: "repulse"
             }
         }
     }
@@ -40,8 +48,10 @@ const Sponsors = () => {
 
     return(
 
-        <div className="sponsors">
+        <div className="sp">
             <Particles className='particles' params={particleOpt}/>
+        <div className="sponsors">
+            
             <div className="head">
                 Sponsors
             </div>
@@ -87,6 +97,7 @@ const Sponsors = () => {
                
             </div>
          
+        </div>
         </div>
 
     );

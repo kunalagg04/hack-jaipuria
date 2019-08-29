@@ -39,6 +39,8 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, #152873 100%);
 
     .sponsors{
         padding-bottom: 10%;
+        background: rgba(0,0,0,0);
+        margin-top: -100vh;
     }
 
     .sponsors .content .google{
@@ -54,7 +56,13 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, #152873 100%);
         margin-top:12%;
     }
 
-    .sponsors canvas{
+    .sp{
+
+        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, #152873 100%);
+
+    }
+
+    .sp canvas{
         min-height: 105vh;
     }
 

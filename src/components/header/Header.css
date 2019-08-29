@@ -197,7 +197,7 @@
     width: 100%;
     height: 105vh;
     position: relative;
-    background: rgba(0,0,0,1);
+    background: rgba(0,0,0,0.7);
     border-bottom-right-radius: 1.1em;
     border-bottom-left-radius: 1.1em;
     /* margin-bottom: 1%; */
@@ -288,4 +288,6 @@
 
 
   
-  
+.row{
+    width: 100%;
+}

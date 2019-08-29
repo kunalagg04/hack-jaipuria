@@ -17,12 +17,17 @@ const Jcard = (props) => {
             </div>
 
             <div className="content">
-                <div>
+                <h4>
                     {/* {props.name} */}
                     Kautuk Kundan
-                </div>
+                </h4>
                 <div>
                     Machine Learner , ZS
+                </div>
+                <div className="icons">
+                <i class="fab fa-facebook fa-lg"></i>
+                            <i class="fab fa-twitter fa-lg"></i>
+                            <i class="fab fa-github fa-lg"></i>
                 </div>
             </div>
 

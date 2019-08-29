@@ -55,37 +55,50 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
 
 <div class="container">
 
-<h2>Frequently Asked Questions</h2>
+
 
 <div class="accordion">
+
   <div class="accordion-item">
-    <a>Why is the moon sometimes out during the day?</a>
+    <a>When ? </a>
     <div class="content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+      <p>
+      HackJaipuria will be a 24 hours hackathon which will stretch from 23rd October to 24th October 2019.
+      </p>
+      </div>
+
+  </div>
+
+  <div class="accordion-item">
+    <a>Where ?</a>
+    <div class="content">
+      <p> Seth Anandram Jaipuria School , Sector - 14C , Vasundhra , Ghaziabad</p>
     </div>
   </div>
   <div class="accordion-item">
-    <a>Why is the sky blue?</a>
+    <a> Is their arrangement for food?</a>
     <div class="content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+      <p> Yes. Absolutely. You will be provided with proper meals. Thanks to our sponsors. </p>
     </div>
   </div>
   <div class="accordion-item">
-    <a>Will we ever discover aliens?</a>
+    <a> What is the registration fee?</a>
     <div class="content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+      <p> There is no registration fee .</p>
     </div>
   </div>
+
   <div class="accordion-item">
-    <a>How much does the Earth weigh?</a>
+    <a>What do I bring with me to the event?</a>
     <div class="content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+      <p>You are required to bring your school/college ID, laptops, phone, chargers and extension board.</p>
     </div>
   </div>
+
   <div class="accordion-item">
-    <a>How do airplanes stay up?</a>
+    <a>How big can my team be?</a>
     <div class="content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+      <p> Team must consist of 4 team members max and 2 min.</p>
     </div>
   </div>
 </div>
@@ -96,6 +109,7 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
     </div>
  
   </div>
+  
                    
                
 

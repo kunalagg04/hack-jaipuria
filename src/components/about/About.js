@@ -16,9 +16,24 @@ const About = () => {
                        About
                      </div>
                      <div className="content">
-                     Hack@BVP 2.0 is an annual event organised by Bharati Vidyapeeth's College of Engg. New Delhi , established in the year 1999, affiliated to Guru Gobind Singh Indraprastha University, New Delhi, and approved by All India Council for Technical Education (AICTE), Ministry of HRD, Govt. of of India.
+                        <div>
 
-Every year, coders from all over India come to compete and win this 24-hour long hackathon against some of the most skilled teams. With over 250 participants attending last year’s Hack@BVP , we are continuing to extend this event to showcase the diversity and knowledge of the developers. The dates for the event are 28th - 29th September 2018 .It provides a platform to budding programmers to come up with a solution to an existing problem using technology. Students can participate in a team size of upto 5 members .
+                        It will be a 24-hour offline event aimed at recognizing innovators from a young age. Hackathons urge students to combine all their knowledge to break down real business problems. 
+Not only would this hackathon inspire students to pursue critical thinking, it would also allow them to think unconventionally .
+
+                        </div>
+
+                        <div style={{marginTop : "4%"}}>
+
+                        
+                    
+This hackathon would help them work on out of the box solutions and prepare them to apply these solutions to some real life problems.
+                     
+</div>
+
+
+
+
                      </div>
                  </div>
 

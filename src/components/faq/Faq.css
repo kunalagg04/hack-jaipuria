@@ -1,6 +1,6 @@
 .faq{
     
-    height: 100vh;
+   
     width: 100%;
     font-family: 'Raleway', sans-serif;
     background: rgb(25,47,135);
@@ -86,7 +86,7 @@ body {
 .faq .container {
   margin: 0 auto;
   padding: 4rem;
-  width: 48rem;
+  width: 70%;
 }
 
 h3 {
@@ -112,7 +112,7 @@ h3 {
   color: #7288a2;
   font-size: 1.15rem;
   font-weight: 400;
-  border-bottom: 1px solid #e5e5e5;
+  /* border-bottom: 1px solid #e5e5e5; */
 }
 
 .accordion a:hover,
@@ -179,4 +179,9 @@ h3 {
   -webkit-transition: all 0.35s ease 0.15s;
   -o-transition: all 0.35s ease 0.15s;
   transition: all 0.35s ease 0.15s;
+}
+
+.accordion-item{
+  background: rgba(0,0,0,0.3);
+  margin-bottom: 2%;
 }

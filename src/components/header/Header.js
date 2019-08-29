@@ -9,7 +9,7 @@ const particleOpt = {
 
     particles : {   
         number : {
-            value : 120,
+            value : 110,
             density : {
                 enable : true  ,
                 value_area : 800
@@ -21,7 +21,7 @@ const particleOpt = {
             "random": true, // Set to false in our case
             "anim": {
               "enable": true,
-              "speed": 8,
+              "speed": 9,
               "opacity_min": 0.4,
               "sync": false
             }

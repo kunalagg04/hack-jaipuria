@@ -126,6 +126,7 @@ class Header extends React.Component{
 
         else{
             return(
+                <div>
                 <Particles className='particles' params={particleOpt}></Particles>
                 <div className="mob-head">
                 <div className="l-top">
@@ -151,6 +152,7 @@ class Header extends React.Component{
                 {/* <div className="ill">
                   <img src={require('../../assets/header.svg')}></img>
                 </div> */}
+              </div>
               </div>
             );
         }

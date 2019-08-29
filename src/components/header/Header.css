@@ -5,6 +5,7 @@
     background-size: cover;
     background-image: url(../../assets/larabg.jpg);
     /* background-color: black; */
+    overflow: hidden;
 }
 
 
@@ -191,91 +192,10 @@
 
 
   @media screen and (max-width: 600px){
-    #content{
-        width:100%;
-    }
+  
 
-    #content col-2{
-        display: none;
     }
 
    
-  }
-
-  .landing-footer{
-    background-color: #383838;
-  }
-
-
-/*prevent white space*/
-
-.landing-mob{
-  /* background: url('../../assets/landing-mob.png'); */
-  height:100vh;
-  background-size: cover;
-}
-
-.landing-mob .l-mob-view {
-    color: white;
-
-}
-
-.landing-mob .l-mob-view .main-view{
-   margin-top:20%;
-   padding:2em;
-}
-
-.landing-mob .l-mob-view #head00{
-    font-weight: normal;
-    font-style: normal;
-    font-size: 3.3em;
-    font-weight: 350;
-    text-transform: uppercase;
-    font-family: 'Righteous', cursive;
-}
-
-.landing-mob .l-mob-view #head11{
-    
-
-    font-size: 1.8em; 
-   
-    font-weight: 100;
-    font-family: 'Open Sans', sans-serif;
-
-
-}
-
-#headingg{
-     
-    font-weight: normal;
-    font-style: normal;
-    font-size: 3.7em;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-family: 'Righteous', cursive;
-    transition: all 0.7s;
-
-}
-
-#heading:hover{
-    font-size: 4.4em;
-}
-
-.l-mob-view #butcourse{
-    border-radius: 20px;
-    background: inherit;
-    border-color: white;
-    outline: none;
-    transition: all 0.9s;
-    width: 11em;
-    height: 2.8em;
-    margin-top:1.3em;
-}
-
-#butcourse:focus{
-    outline: none;
-}
-
-.landing-mob-footer{
-    background-color: #333333;
-}
+  
+  

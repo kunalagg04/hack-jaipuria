@@ -20,10 +20,13 @@ const Footer = () => {
                                 hackjaipuria@gmail.com
                             </div>
 
+                            </a>
+
                             <div className="icons">
                             <i class="fab fa-facebook-f fa-lg"></i>
                             <i class="fab fa-instagram fa-lg"></i>
                             <i class="fab fa-github-alt fa-lg"></i>
+
                             <a href="tel: 8076989248">
                             <i class="fas fa-phone-alt"></i>
                             </a> 
@@ -35,7 +38,7 @@ const Footer = () => {
                             
                             </div>
 
-                        </a>
+                        
                     </div>
 
 

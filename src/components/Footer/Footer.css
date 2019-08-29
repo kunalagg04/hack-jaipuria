@@ -69,4 +69,23 @@
     
     }
 
+    .con .email{
+        padding-top: 5%;
+
+    }
+
+    .con .icons{
+
+        padding-top:5%;
+
+    }
+
+    .con .details{
+        padding-top: 7%;
+    }
+
+    .footer .icons i{
+        margin: 2% 3%;
+    }
+
 }

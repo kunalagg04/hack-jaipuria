@@ -101,6 +101,41 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
       <p> Team must consist of 4 team members max and 2 min.</p>
     </div>
   </div>
+
+  <div class="accordion-item">
+    <a>What's the criteria for judgement?</a>
+    <div class="content">
+      <p>
+        <ul>
+          <li>
+          Concept: New/interesting concepts used would be appreciated.
+
+          </li>
+
+          <li>
+          Design/Feasibility: The project made should be feasible.
+   </li>
+
+          <li>
+          Innovation: Innovative ideas are always welcome, and would be greatly appreciated.
+
+          </li>
+
+          <li>
+          Functional Scope: The project should be working.
+
+
+          </li>
+
+          <li>
+          Presentation: As the saying goes, extra marks for good handwriting (figuratively speaking).
+
+          </li>
+
+        </ul>
+      </p>
+    </div>
+  </div>
 </div>
 
 </div>

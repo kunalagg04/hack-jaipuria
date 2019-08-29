@@ -48,9 +48,20 @@ function App() {
 			</div>  */}
 
 			<div class="cd-timeline-content">
-				<h2>Title of section 2</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-				<span class="cd-date">Jan 18</span>
+				<h2>
+				<div style={{marginBottom : "3%"}}>
+					--> Hackathon Begins
+				</div>
+				<div style={{marginBottom : "3%"}}>
+					--> Themes announced
+				</div>
+				<div >
+					-->  Announcement Presentation
+				</div>
+ 
+</h2>
+				{/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p> */}
+				<span class="cd-date"> 8:00 AM</span>
 			</div> 
 		</div> 
 		<div class="cd-timeline-block">

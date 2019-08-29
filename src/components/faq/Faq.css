@@ -185,3 +185,25 @@ h3 {
   background: rgba(0,0,0,0.3);
   margin-bottom: 2%;
 }
+
+@media only screen and (max-width: 600px) {
+
+.faq{
+  padding-bottom: 7%;
+}  
+
+.faq .container {
+  
+  width: 100%;
+  padding: 1%;
+}
+
+.faq .head{
+   padding-bottom: 7%;
+
+
+}
+
+
+
+}

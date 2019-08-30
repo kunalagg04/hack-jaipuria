@@ -45,3 +45,21 @@
 .prize .mid .row{
     height: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .prize .content .head{
+        font-size: 3em;
+        font-weight: 500;
+        padding-top: 6%;
+        padding-bottom: 9%;
+        text-align: center;
+    }
+
+    .prize .graphic img{
+        width: 100%;
+        margin-top:20%;
+    }
+    
+
+}

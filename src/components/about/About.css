@@ -35,12 +35,15 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 27%, rgba(9,
     background: rgba(0,0,0,0.7);
 }
 
-.about .a-text .head{
+.about .head{
     font-size: 3em;
-    font-weight: 600;
-    margin-bottom: 6%;
+    font-weight: 500;
+    margin-bottom: 3%;
     text-decoration: none;
     transition: 0.5s;
+    color: white;
+    text-align: center;
+
     
 }
 
@@ -48,4 +51,24 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 27%, rgba(9,
 
 .about .a-text .content{
     font-size: 1.1em;
+    padding-top:2%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .about{
+        padding-bottom: 15%;
+    }
+    .about .a-img{
+        text-align: center;
+        padding-bottom: 10%;
+      
+      }
+
+      .about .head{
+          padding-top:5%;
+          margin-bottom:5%;
+      }
 }

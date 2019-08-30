@@ -6,15 +6,16 @@ const About = () => {
     return(
 
         <div className="about">
+             <div className="head">
+                       About
+                     </div>
          <div className="row">
              <div class="col-lg-6 col-sm-12 a-img">
                 <img src={require('../../assets/about.svg')}/>
              </div>
              <div className="col-lg-6 col-sm-12 a-text">
                  <div className="writeup">
-                     <div className="head">
-                       About
-                     </div>
+                    
                      <div className="content">
                         <div>
 

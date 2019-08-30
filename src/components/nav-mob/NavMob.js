@@ -42,26 +42,61 @@ class NavMob extends React.Component{
             <div className="hidden-box">
                 <div className="nav-content">
 
-                <div><a to="/login">
-                    About
-                </a></div>
-                <div><a to="/course">
-                    Schedule
-                    </a></div>
-                    <div><a to="/blog">
-                     Prizes
-                    </a></div>
-                <div><a to="/contact">
-                    Themes
-                    </a></div>
-                <div><a to="/signup">
-                    Venue
-                    </a></div>
-                    
-                   
-                    <div><a to="/signup">
-                    FAQ
-                    </a></div>
+                <div>
+                    <Link
+                       to="about"
+                       spy={true}
+                                    smooth={true}
+                                    offset={-10}
+                                    duration= {600} >
+                       About
+                    </Link>
+                </div>
+                <div>
+                    <Link to="timeline"
+                     spy={true}
+                     smooth={true}
+                     offset={-10}
+                     duration= {600}>
+                      Schedule
+                    </Link>
+                </div>
+                <div>
+                    <Link to="prize"
+                     spy={true}
+                     smooth={true}
+                     offset={-10}
+                     duration= {600}>
+                       Prizes
+                    </Link>
+                </div>
+                <div>
+                    <Link to="theme"
+                     spy={true}
+                     smooth={true}
+                     offset={-10}
+                     duration= {600}>
+                      Themes
+                    </Link>
+                </div>
+                <div>
+                    <Link to="venue"
+                     spy={true}
+                     smooth={true}
+                     offset={-10}
+                     duration= {600}>
+                      Venue
+                    </Link>
+                </div>
+                <div>
+                    <Link to="faq"
+                     spy={true}
+                     smooth={true}
+                     offset={-10}
+                     duration= {600}>
+                      FAQ
+                    </Link>
+                </div>
             
               
 

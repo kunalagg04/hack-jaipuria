@@ -76,7 +76,8 @@ class Header extends React.Component{
                                     spy={true}
                                     smooth={true}
                                     offset={-70}
-                                    duration= {600} to="about">
+                                    duration= {600} 
+                                    to="about">
                                     <MdInformationCircle className="mdicon"  fontSize="1.7em" color="rgba(255,255,255,0.9)"/>
                             </Link>
                                

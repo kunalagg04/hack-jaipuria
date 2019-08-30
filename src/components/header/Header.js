@@ -3,7 +3,13 @@ import React from 'react';
 import Particles from 'react-particles-js';
 import Navbar from '../../components/navbar/Navbar';
 import { Link } from 'react-router-dom';
+import MdInformationCircle from 'react-ionicons/lib/MdInformationCircle';
 import NavMob from '../nav-mob/NavMob';
+import MdHelp from 'react-ionicons/lib/MdHelp';
+import MdStopWatch from 'react-ionicons/lib/MdStopwatch';
+import MdAperture from 'react-ionicons/lib/MdAperture';
+import MdCompass from 'react-ionicons/lib/MdCompass';
+import MdCube from 'react-ionicons/lib/MdCube';
 
 /* For Particle.JS */
 const particleOpt = { 
@@ -62,9 +68,17 @@ class Header extends React.Component{
 
                  <div className="land-nav">
                              <div className="icons">
-                             <i class="fas fa-stream fa-lg"></i>
-                             <i class="fas fa-gifts fa-lg"></i>
-                             <i class="fas fa-address-book fa-lg"></i>
+                                 <MdInformationCircle className="mdicon"  fontSize="1.7em" color="rgba(255,255,255,0.9)"/>
+                            
+                             <MdStopWatch className="mdicon"  fontSize="1.7em" color="rgba(255,255,255,0.9)"/>
+                            <MdCube className="mdicon"  fontSize="1.7em" color="rgba(255,255,255,0.9)"/>
+                             <MdAperture className="mdicon" fontSize="1.7em" color="rgba(255,255,255,0.9)"/>
+                             <MdCompass className="mdicon" fontSize="1.7em" color="rgba(255,255,255,0.9)"/>
+                             <MdHelp className="mdicon" fontSize="1.7em" color="rgba(255,255,255,0.9)"/>
+                          
+                          
+                            
+                           
                              </div>
                          </div>
 

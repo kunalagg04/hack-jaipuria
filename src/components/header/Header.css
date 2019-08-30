@@ -8,7 +8,14 @@
     overflow: hidden;
 }
 
+.mdicon{
+    margin-right: 1%;
+}
 
+.fa-gifts{
+    margin-right: 1%;
+    margin-left: 0%;
+}
 
 .particles{
     z-index: -1;
@@ -360,3 +367,4 @@ background: linear-gradient(180deg, rgba(15,25,50,1) 0%, rgba(1,4,12,1) 100%);
 .ml canvas{
     min-height: 100vh;
 }
+

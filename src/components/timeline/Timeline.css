@@ -277,3 +277,21 @@ background: linear-gradient(0deg, rgba(15,18,23,1) 0%, rgba(38,40,98,1) 100%);
     }
   }
   
+
+  @media only screen and (max-width: 600px) {
+    .cd-timeline-content{
+      margin-right: 0px;
+     
+    }
+
+    .cd-timeline-content h2{
+      font-size: 1.3em;
+    }
+
+    .cd-timeline-content .cd-date{
+      margin-left: 0%;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.8em !important;
+      font-weight: 700;
+    }
+  }

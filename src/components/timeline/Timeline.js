@@ -14,7 +14,7 @@ function App() {
 
 	if(document.body.offsetWidth > 600){
   return (
-    <div className="timeline">
+    <div id="timeline" className="timeline">
 
       <div className="head">
         Schedule

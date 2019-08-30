@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavMob.css';
-import $ from 'jquery';
+
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class NavMob extends React.Component{
 
@@ -56,12 +57,8 @@ class NavMob extends React.Component{
                 <div><a to="/signup">
                     Venue
                     </a></div>
-                    <div><a to="/signup">
-                    Judges
-                    </a></div>
-                    <div><a to="/signup">
-                    Sponsors
-                    </a></div>
+                    
+                   
                     <div><a to="/signup">
                     FAQ
                     </a></div>

@@ -25,7 +25,7 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
 
     render(){
         return(
-            <div className="faq">
+            <div id="faq" className="faq">
                 <div className="head">
                     FAQ
                 </div>

@@ -5,7 +5,7 @@ import './Venue.css';
 
 const Venue = () => {
   return (
-    <div className="venue">
+    <div id="venue" className="venue">
         <div className="head">
             Venue
         </div>

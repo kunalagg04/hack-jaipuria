@@ -6,7 +6,7 @@ import Pcard from './Pcard/Pcard';
 
 const Prize = () => {
   return (
-    <div className="prize">
+    <div id="prize" className="prize">
       <div className="row">
           <div className="col-lg-5 col-sm-12 content" >
             <div className="main">

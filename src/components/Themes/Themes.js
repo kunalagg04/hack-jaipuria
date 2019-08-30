@@ -5,7 +5,7 @@ import './Themes.css';
 
 const Themes = () => {
   return (
-    <div className="themes">
+    <div id="themes" className="themes">
      <div className="head">
        Themes
      </div>

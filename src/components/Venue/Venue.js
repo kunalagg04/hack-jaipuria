@@ -24,7 +24,7 @@ const Venue = () => {
                     <i class="fas fa-map-marker-alt fa-3x"></i>
                     <span>
 
-                    Seth Anandram Jaipuria School
+                    SAJS
 
                     </span>
                     <div className="add">

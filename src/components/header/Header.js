@@ -72,6 +72,7 @@ class Header extends React.Component{
                             
                         <div className="icons">
 
+
                         <Link  activeClass="active"
                                     spy={true}
                                     smooth={true}

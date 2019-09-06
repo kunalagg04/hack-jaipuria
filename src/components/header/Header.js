@@ -69,6 +69,10 @@ class Header extends React.Component{
 
                  <div className="land-nav">
 
+                      <div className="slogo">
+                          <img src={require('../../assets/gzb_logo.jpg')}/>
+                      </div>
+
                             
                         <div className="icons">
 
@@ -152,7 +156,8 @@ class Header extends React.Component{
 
                               <div class="col-12">
                                  <div id="head0">
-                                      <img className="dsclogo" src = {require('../../assets/dsclogo.svg')}/> DSCBVP
+                                      <img className='jlogo' src={require('../../assets/cybercrew.svg')}/> <span style={{ marginRight : "1%" , marginLeft : "1%" }}> Cyber Crew </span>   &amp;
+                                      <img style={{ marginLeft : "2%"}} className="dsclogo" src = {require('../../assets/dsclogo.svg')}/> DSCBVP
                                  </div>
                                  <div id="head1">
                                       PRESENTS

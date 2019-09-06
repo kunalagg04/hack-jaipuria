@@ -3,13 +3,13 @@
     width: 100%;
     height: 130vh;
     background-size: cover;
-    background-image: url(../../assets/larabg.jpg);
+    background-image: url(../../assets/larabg-2.svg);
     /* background-color: black; */
     overflow: hidden;
 }
 
 .mdicon{
-    margin-right: 1%;
+    margin-right: 2%;
 }
 
 .fa-gifts{
@@ -40,7 +40,7 @@
 
 #content{
     margin: 0 auto;
-    margin-top: -42%;
+    margin-top: -45%;
     position: relative;
     z-index: 10;
     width: 55%;
@@ -53,18 +53,30 @@
 
 .land-nav{
     padding-top:2%;
-    text-align: right;
-    margin-right: 3%;
-    
+    padding-left: 2%;
+
+}
+
+.land-nav .slogo{
+    width: 40%;
+    display: inline-block;
+}
+
+.land-nav .slogo img{
+    width: 40%;
 }
 
 .land-nav .icons{
+    float: right;
+    text-align: right;
+    width: 40%;
+    padding-right: 1%;
     
 }
 
 .land-nav i{
     color: white;
-    margin-left: 30px;
+    margin-left: 40px;
     transition: all 1s;
 }
 
@@ -76,10 +88,14 @@
     width: 10%;
 }
 
+.jlogo{
+    width: 9%;
+}
+
 #head0{
     font-weight: normal;
     font-style: normal;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 350;
     text-transform: uppercase;
     font-family: 'Righteous', cursive;

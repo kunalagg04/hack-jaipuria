@@ -13,7 +13,7 @@ const Prize = () => {
                 <div className="head">
                     Prizes
                 </div>
-                <div className="dis">
+                {/* <div className="dis">
                    <Pcard
                      pr="1 st Prize"
                      money="INR 20k" />
@@ -38,7 +38,14 @@ const Prize = () => {
                    <Pcard
                      pr="3 st Prize"
                      money="INR 5k"/>
-                </div>
+                </div> */}
+
+              <div className="ex animated infinite shake delay-2s">
+              Exciting Prizes Too! 
+
+              </div>
+
+               
             </div>
           </div>
           <div className="col-lg-7 col-sm-12 graphic">

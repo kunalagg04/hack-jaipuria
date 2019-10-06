@@ -22,3 +22,24 @@ background: linear-gradient(180deg, rgba(16,19,24,1) 0%, rgba(38,40,98,1) 100%);
     text-align: center;
     font-family: 'Be Vietnam', sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+    .themes{
+        height: 60vh;
+    }
+
+    .themes .head{
+        margin-top:5%;
+    }
+
+    .themes .body{
+        margin-top:19%;
+        color: white;
+        font-size: 3.5em;
+        font-weight: 600;
+        text-align: center;
+        font-family: 'Be Vietnam', sans-serif;
+    }
+    
+
+}

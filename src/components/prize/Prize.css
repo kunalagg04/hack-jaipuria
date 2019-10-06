@@ -12,6 +12,12 @@
     color:white;
 
 
+
+}
+
+.prize .ex{
+    font-size: 4em;
+    margin-top:40%;
 }
 
 .prize .main{
@@ -66,5 +72,11 @@
         margin-top:20%;
     }
     
+
+    .prize .ex{
+        font-size: 3.5em;
+        margin-top:30%;
+        text-align: center;
+    }
 
 }

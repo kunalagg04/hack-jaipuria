@@ -102,7 +102,7 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
   <div class="accordion-item">
     <a>Will the host school provide internet?</a>
     <div class="content">
-      <p>yes, students will be provided with high speed WiFi connection.</p>
+      <p>Yes, students will be provided with high speed WiFi connection.</p>
     </div>
   </div>
   

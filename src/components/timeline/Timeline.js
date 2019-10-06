@@ -66,12 +66,12 @@ function App() {
 					--> Themes announced
 				</div>
 				<div >
-					-->  Announcement Presentation
+					-->  How to Hackathon?
 				</div>
  
 </h2>
 				{/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p> */}
-				<span class="cd-date"> 8:00 AM</span>
+				<span class="cd-date"> 9:00 AM</span>
 			</div> 
 		</div> 
 
@@ -85,7 +85,7 @@ function App() {
 			<div class="cd-timeline-content">
 				<h2> <MdCodeWorking fontSize="4em" color="#46FF66" />  --> Coding Begins</h2>
 				{/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p> */}
-				<span class="cd-date ev"> 8:30 AM</span>
+				<span class="cd-date ev"> 10:00 AM</span>
 			</div> 
 		</div> 
 
@@ -98,7 +98,7 @@ function App() {
 			<div class="cd-timeline-content">
 				<h2><MdPeople fontSize="3em" color="red" /> --> Mentor Round</h2>
 				{/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p> */}
-				<span class="cd-date ev"> 10:00 AM</span>
+				<span class="cd-date ev"> 11:30 AM</span>
 			</div> 
 		</div> 
 
@@ -111,7 +111,7 @@ function App() {
 			<div class="cd-timeline-content">
 				<h2><MdPaperPlane fontSize="3em" color="#FF6646"/>  --> Judgement Round 1</h2>
 				{/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p> */}
-				<span class="cd-date ev"> 11:30 AM</span>
+				<span class="cd-date ev"> 12:30 PM</span>
 			</div> 
 		</div> 
 
@@ -123,7 +123,7 @@ function App() {
 			<div class="cd-timeline-content">
 				<h2> <MdPizza shake={true} fontSize="3em" color="orange" /> --> Lunch </h2>
 				
-				<span class="cd-date">12:30 PM</span>
+				<span class="cd-date">01:00 PM</span>
 			</div> 
 			</div>
 
@@ -147,7 +147,7 @@ function App() {
 			<div class="cd-timeline-content">
 				<h2> <MdBeer shake={true} fontSize="3em" color="brown" /> --> Evening Snacks </h2>
 				
-				<span class="cd-date ev">06:30 PM</span>
+				<span class="cd-date ev">06:00 PM</span>
 			</div> 
 			</div>
 

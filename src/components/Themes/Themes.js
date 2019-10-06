@@ -9,6 +9,9 @@ const Themes = () => {
      <div className="head">
        Themes
      </div>
+     <div className="body animated infinite flash delay-2s">
+       Releasing Soon ! 
+     </div>
     </div>
   );
 }

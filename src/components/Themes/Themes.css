@@ -13,3 +13,12 @@ background: linear-gradient(180deg, rgba(16,19,24,1) 0%, rgba(38,40,98,1) 100%);
     text-align: center;
     font-size: 3.5em;
 }
+
+.themes .body{
+    margin-top:12%;
+    color: white;
+    font-size: 4.5em;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Be Vietnam', sans-serif;
+}

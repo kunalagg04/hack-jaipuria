@@ -156,7 +156,7 @@ class Header extends React.Component{
 
                               <div class="col-12">
                                  <div id="head0">
-                                      <img className='jlogo' src={require('../../assets/cybercrew.svg')}/> <span style={{ marginRight : "1%" , marginLeft : "1%" }}> Cyber Crew </span>   &amp;
+                                      <img className='jlogo' src={require('../../assets/cyber_crew.png')}/> <span style={{ marginRight : "1%" , marginLeft : "1%" }}> Cyber Crew </span>   &amp;
                                       <img style={{ marginLeft : "2%"}} className="dsclogo" src = {require('../../assets/dsclogo.svg')}/> DSCBVP
                                  </div>
                                  <div id="head1">
@@ -214,6 +214,10 @@ class Header extends React.Component{
                 <div className="mob-head">
                 <div className="l-top">
                 <div className="head">
+                  <img src={require('../../assets/cyber_crew.png')} style={{width : "12%"}} /> Cyber Crew
+                  <br></br>
+                  &amp;
+                  <br></br>
                   <img src={require('../../assets/dsclogo.svg')} style={{width : "12%"}} /> DSCBVP
                 </div>
                 <div className="pr">
@@ -255,12 +259,12 @@ class Header extends React.Component{
                 </div>
 
 
-                <div className="rocket">
+                {/* <div className="rocket">
                              <img 
                             //  class="animated infinite pulse delay-2s"
                               src= {require('../../assets/rocketf.svg')}/>
                          </div>
-             
+              */}
         
                 
                

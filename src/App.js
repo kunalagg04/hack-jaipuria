@@ -21,8 +21,8 @@ function App() {
       <Prize/>
       <Themes/>
       <Venue/>
-      <Judge/>
-      <Sponsor/>
+      {/* <Judge/>
+      <Sponsor/> */}
       <Faq/>
       <Footer/>
     </div>

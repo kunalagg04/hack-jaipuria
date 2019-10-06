@@ -14,22 +14,29 @@ const Footer = () => {
          
                     <div className="con">
                         <img src={require('../../assets/hack_jaipuria.png')}/>
-                        <a href="mailto:kunalagg04@gmail.com">
+                        <a href="mailto:Cybercrew@ghaziabad.jaipuriaschools.com">
 
                             <div className="email">
-                                hackjaipuria@gmail.com
+                            Cybercrew@ghaziabad.jaipuriaschools.com
                             </div>
 
                             </a>
 
                             <div className="icons">
-                            <i class="fab fa-facebook-f fa-lg"></i>
-                            <i class="fab fa-instagram fa-lg"></i>
-                            <i class="fab fa-github-alt fa-lg"></i>
+                            <a href="https://www.facebook.com/DSCBVP/">
+                            <i class="fab fa-facebook-f fa-lg"></i></a>
 
-                            <a href="tel: 8076989248">
+                            <a href="https://www.instagram.com/dscbvp/">
+                            <i class="fab fa-instagram fa-lg"></i>
+                            </a>
+                           
+                           <a href="http://github.com/DSC-BVP">
+                            <i class="fab fa-github-alt fa-lg"></i>
+                            </a>
+
+                            {/* <a href="tel: 8076989248">
                             <i class="fas fa-phone-alt"></i>
-                            </a> 
+                            </a>  */}
 
                             </div>
 

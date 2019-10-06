@@ -29,7 +29,7 @@ class NavMob extends React.Component{
             <div className="navbar-mobile">
             <div className="top-bar">
                 <span>
-               <a to="/"> <img  id = "nav-mob-logo" src={require('../../assets/hack_jaipuria.png')}></img></a>
+               <a to="/"> <img  id = "nav-mob-logo" src={require('../../assets/gzb_logo.jpg')}></img></a>
                 </span>
                 <span id="ham" onClick={this.navShow}>
                 <img id="ham-icon" src={require('../../assets/hamburger.png')}></img>

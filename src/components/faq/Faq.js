@@ -63,7 +63,8 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
     <a>When ? </a>
     <div class="content">
       <p>
-      HackJaipuria will be a 24 hours hackathon which will stretch from 23rd October to 24th October 2019.
+      Hack@Jaipuria will be a 24 hours hackathon which will stretch from 23rd October to 24th October 2019.
+
       </p>
       </div>
 
@@ -72,13 +73,15 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
   <div class="accordion-item">
     <a>Where ?</a>
     <div class="content">
-      <p> Seth Anandram Jaipuria School , Sector - 14C , Vasundhra , Ghaziabad</p>
+      <p>
+      Seth Anandram Jaipuria School , Sector - 14C , Vasundhara , Ghaziabad
+      </p>
     </div>
   </div>
   <div class="accordion-item">
     <a> Is their arrangement for food?</a>
     <div class="content">
-      <p> Yes. Absolutely. You will be provided with proper meals. Thanks to our sponsors. </p>
+      <p> Yes. Absolutely. You will be provided with proper meals.</p>
     </div>
   </div>
   <div class="accordion-item">
@@ -91,16 +94,59 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
   <div class="accordion-item">
     <a>What do I bring with me to the event?</a>
     <div class="content">
-      <p>You are required to bring your school/college ID, laptops, phone, chargers and extension board.</p>
+      <p>You are required to bring your school/college ID, laptops, phone, chargers and any other hardware stuff you will be needing and also extension board and own hotspot is recommended.</p>
     </div>
   </div>
+
+
+  <div class="accordion-item">
+    <a>Will the host school provide internet?</a>
+    <div class="content">
+      <p>yes, students will be provided with high speed WiFi connection.</p>
+    </div>
+  </div>
+  
+
+  <div class="accordion-item">
+    <a>Will mentoring be provided for building apps?</a>
+    <div class="content">
+      <p> Yes, Each team will be provided with a mentor who will guide the students if they are stuck.
+</p>
+    </div>
+  </div>
+
 
   <div class="accordion-item">
     <a>How big can my team be?</a>
     <div class="content">
-      <p> Team must consist of 4 team members max and 2 min.</p>
+      <p> The team should be of min 2 and max 4 members.</p>
     </div>
   </div>
+
+  
+  <div class="accordion-item">
+    <a>Number of prizes?</a>
+    <div class="content">
+      <p> Top 3 positions will get awarded.</p>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <a>Are Cross school teams allowed?</a>
+    <div class="content">
+      <p>No, all the members of the team should be of same school.</p>
+    </div>
+  </div>
+  
+
+  <div class="accordion-item">
+    <a>What tech can we use?</a>
+    <div class="content">
+      <p>You can build web application/android application/games or even an hardware solution using Arduino and RaspberryPi</p>
+    </div>
+  </div>
+
 
   <div class="accordion-item">
     <a>What's the criteria for judgement?</a>
@@ -136,6 +182,16 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
       </p>
     </div>
   </div>
+
+
+  <div class="accordion-item">
+    <a>Anything else I need to know?</a>
+    <div class="content">
+      <p>Please note that this isn't a science fair exhibition. We will only be expecting a software/hardware based solution. Do NOT bring science fair models :D</p>
+    </div>
+  </div>
+
+
 </div>
 
 </div>

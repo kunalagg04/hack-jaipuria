@@ -167,11 +167,11 @@ class Header extends React.Component{
                                  </div>
                                  <div className="details">
                                       <div class="row">
-                                          <div class="col-5">
+                                          <div class="col-6">
                                           <i class="fas fa-calendar-week"></i>
                                           23 - 24 October' 2019
                                           </div>
-                                          <div className="col-7">
+                                          <div className="col-6">
                                           <i class="fas fa-map-marker-alt"></i>
                                           Seth Anandram Jaipuria School
                                           </div>

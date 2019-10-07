@@ -74,9 +74,23 @@
     
 
     .prize .ex{
-        font-size: 3.5em;
+        font-size: 1.5em;
         margin-top:30%;
-        text-align: center;
+        text-align: left;
+        
     }
 
+    .prize .content{
+    /* padding:4% 9%; */
+    padding-bottom: 0%;
+    padding-right: 8%;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+
+    }
+    
+
+
+
 }
+

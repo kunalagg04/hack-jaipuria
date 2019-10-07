@@ -71,10 +71,11 @@
           font-size: 3em;
           padding-top:5%;
           padding-bottom: 5%;
-          margin-bottom:5%;
+          margin-bottom:3%;
       }
 
       .project .a-text{
-          font-size: 1.1em;
+          font-size: 0.8em;
+          margin-bottom: 5%;
       }
 }

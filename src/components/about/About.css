@@ -69,13 +69,15 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 27%, rgba(9,
       }
 
       .about .head{
-          font-size: 3em;
-          padding-top:5%;
-          padding-bottom: 5%;
-          margin-bottom:5%;
+        font-size: 3em;
+        padding-top:5%;
+        padding-bottom: 5%;
+        margin-bottom:7%;
       }
 
       .about .a-text{
-        font-size: 1.1em;
+        font-size: 0.8em;
+          margin-bottom: 5%;
+          margin-top:3%;
     }
 }

@@ -252,11 +252,10 @@ class Header extends React.Component{
 </div>
         
 
-             <div className="rbut">
-             <a href="https://docs.google.com/forms/d/e/1FAIpQLScHfbjd-_Qm56vlEanhYc39Edv0lD1EzaSVCmHa4_PH3pWh5g/viewform?usp=sf_link">
-
-                                
-<button type="button" class="btn btn-danger">Apply Now</button> </a>
+        <div className="rbut">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScHfbjd-_Qm56vlEanhYc39Edv0lD1EzaSVCmHa4_PH3pWh5g/viewform?usp=sf_link">                   
+             <button type="button" class="btn btn-danger">Apply Now</button>
+            </a>
         
          
                

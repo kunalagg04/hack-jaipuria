@@ -191,6 +191,14 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
     </div>
   </div>
 
+  <div class="accordion-item">
+    <a>Is there arrangements for teacher escorts?</a>
+    <div class="content">
+      <p>
+      No, arrangements are made only for the students.
+      </p>
+    </div>
+
 
 </div>
 

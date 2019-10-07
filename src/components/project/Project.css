@@ -68,8 +68,13 @@
       }
 
       .project .head{
+          font-size: 3em;
           padding-top:5%;
           padding-bottom: 5%;
           margin-bottom:5%;
+      }
+
+      .project .a-text{
+          font-size: 1.1em;
       }
 }

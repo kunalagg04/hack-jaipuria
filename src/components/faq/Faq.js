@@ -198,6 +198,7 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
       No, arrangements are made only for the students.
       </p>
     </div>
+    </div>
 
 
 </div>

@@ -1,47 +1,46 @@
-.about{
-    background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 27%, rgba(9,9,44,1) 50%, rgba(38,40,98,1) 100%);
-   padding-bottom: 10%;
+.project{
+    background:#262459;
+     background-image: linear-gradient(to bottom, #24265e, #2f1c47, #2e1433, #261022, #1c0a14, #1c0a14, #1c0a14, #1c0a14, #261022, #2e1433, #2f1c47, #24265e); 
+   padding-bottom: 7%;
     width:100%;
     font-family: 'Raleway', sans-serif;
 }
 
-.about .row{
+.project .row{
     width:100%;
 }
 
-.about .a-img{
-  text-align: right;
-
+.project .a-img{
+  
 }
 
-.about .a-img img{
-    width: 85%;
+.project .a-img img{
+    width: 99%;
 }
 
-.about .a-text{
+.project .a-text{
     color:white;
     padding: 3% 7%;
-    padding-top:0%;
+    padding-top:5%;
+
 }
 
-.about .writeup{
+.project .writeup{
     padding: 3% 5%;
     transition: 0.6s;
     background: rgba(0,0,0,0);
 }
 
-.about .writeup:hover{
-    background: rgba(0,0,0,0.7);
-}
 
-.about .head{
+
+.project .head{
     font-size: 4em;
     font-weight: 700;
-    margin-bottom: 6%;
+    margin-bottom: 7%;
     text-decoration: none;
     transition: 0.5s;
     color: white;
+    padding-top:3%;
     text-align: center;
 
     
@@ -49,8 +48,8 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 27%, rgba(9,
 
 
 
-.about .a-text .content{
-    font-size: 1.4em;
+.project .a-text .content{
+    font-size: 1.5em;
     padding-top:2%;
 }
 
@@ -58,17 +57,17 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 27%, rgba(9,
 
 @media only screen and (max-width: 600px) {
 
-    .about{
+    .project{
         padding-bottom: 15%;
         padding-top: 15%;
     }
-    .about .a-img{
+    .project .a-img{
         text-align: center;
         padding-bottom: 10%;
       
       }
 
-      .about .head{
+      .project .head{
           padding-top:5%;
           padding-bottom: 5%;
           margin-bottom:5%;

@@ -40,8 +40,19 @@ const Prize = () => {
                      money="INR 5k"/>
                 </div> */}
 
-              <div className="ex animated infinite shake delay-2s">
-              Exciting Prizes Too! 
+              <div className="ex ">
+                <ul>
+                  <li>
+                  Top <b>3 Teams</b> will be awarded after evaluation.
+
+                  </li>
+                  <li>
+                  Also there's something for all participating teams!
+
+                  </li>
+                </ul>
+             
+              
 
               </div>
 

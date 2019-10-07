@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/header/Header';
 import About from './components/about/About';
+import Project from './components/project/Project';
 import Timeline from './components/timeline/Timeline';
 import Prize from './components/prize/Prize';
 import Themes from './components/Themes/Themes';
@@ -17,6 +18,7 @@ function App() {
     <div style={{overflow: "hidden"}}>
       <Header/>
       <About/>
+      <Project/>
       <Timeline/>
       <Prize/>
       <Themes/>

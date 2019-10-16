@@ -1,7 +1,7 @@
 .themes{
     background: rgb(16,19,24);
 background: linear-gradient(180deg, rgba(16,19,24,1) 0%, rgba(38,40,98,1) 100%);
-    height: 100vh;
+    height: 120vh;
     width:100%;
     padding-top:5%;
 }
@@ -15,7 +15,7 @@ background: linear-gradient(180deg, rgba(16,19,24,1) 0%, rgba(38,40,98,1) 100%);
 }
 
 .themes .body{
-    margin-top:14%;
+    margin-top:3%;
     color: white;
     font-size: 4.5em;
     font-weight: 600;
@@ -23,23 +23,59 @@ background: linear-gradient(180deg, rgba(16,19,24,1) 0%, rgba(38,40,98,1) 100%);
     font-family: 'Be Vietnam', sans-serif;
 }
 
+.themes .body img{
+    width: 13%;
+}
+
+.themes .body div{
+    margin-bottom: 4%;
+}
+
+.themes .body span{
+    font-size: 0.6em;
+}
+
+.themes .body .right span{
+    margin-left: 4%;
+}
+
+.themes .body .right{
+    /* margin-left: 15%; */
+}
+
+.themes .body .left span{
+    margin-right: 4%;
+}
+
+.themes .body .left{
+    /* margin-right: 15%;
+    float: right; */
+}
+
 @media only screen and (max-width: 600px) {
     .themes{
-        height: 60vh;
+        height: 55vh;
     }
 
     .themes .head{
+        font-size: 3em;
         margin-top:5%;
     }
 
     .themes .body{
-        margin-top:19%;
+        margin-top:5%;
         color: white;
-        font-size: 3.5em;
+        font-size: 2.5em;
         font-weight: 600;
-        text-align: center;
+        /* text-align: center; */
         font-family: 'Be Vietnam', sans-serif;
     }
+
+    .themes .body img{
+        width: 20%;
+    }
+
+    
     
 
 }

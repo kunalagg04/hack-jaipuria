@@ -9,8 +9,26 @@ const Themes = () => {
      <div className="head">
        Themes
      </div>
-     <div className="body animated infinite flash delay-2s">
-       Releasing Soon ! 
+     <div className="body">
+       <div class="right">
+          <img src={require('../../assets/entertainment.svg')}/>
+          <span>Memes &amp; Entertainment</span>
+       </div>
+       <div className="left"> 
+      
+          <span>Heath &amp; Fitness</span>
+          <img src={require('../../assets/health.svg')}/>
+       </div>
+       <div className="right">
+       <img src={require('../../assets/campus.svg')}/>
+          <span>Smart Campus</span>
+       </div>
+       <div className="left">
+     
+          <span>Open Innovation</span>
+          <img src={require('../../assets/open.svg')}/>
+       </div>
+  
      </div>
     </div>
   );
